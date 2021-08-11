@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<measure>
+  <schema_version>3.0</schema_version>
+  <name>coil_cooling_water_multiplier</name>
+  <uid>0fb42580-a644-4291-9a08-05521a6e7940</uid>
+  <version_id>b0585d0b-7194-4436-814f-798619c2c9eb</version_id>
+  <version_modified>20210304T152733Z</version_modified>
+  <xml_checksum>8CBDDA1B</xml_checksum>
+  <class_name>CoilCoolingWaterMultiplier</class_name>
+  <display_name>Cooling Coils Water Multiplier</display_name>
+  <description>This is a general purpose measure to calibrate Water Cooling Coils with a Multiplier.</description>
+  <modeler_description>It will be used for calibration of inlet water temperatures, inlet and outlet air temperatures and design flowrates. User can choose between a SINGLE coil or ALL the Coils.</modeler_description>
+  <arguments>
+    <argument>
+      <name>coil</name>
+      <display_name>Apply the Measure to a SINGLE Water Cooling Coil, ALL the Water Cooling Coils or NONE.</display_name>
+      <type>Choice</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>{e770f688-859b-4de9-9396-d0238ff8a4b4}</default_value>
+      <choices>
+        <choice>
+          <value>{e770f688-859b-4de9-9396-d0238ff8a4b4}</value>
+          <display_name>*All Water Cooling Coils*</display_name>
+        </choice>
+        <choice>
+          <value>0</value>
+          <display_name>*None*</display_name>
+        </choice>
+      </choices>
+    </argument>
+    <argument>
+      <name>design_water_flow_rate</name>
+      <display_name>Multiplier for Design Water Flow Rate.</display_name>
+      <description>Multiplier for Design Water Flow Rate.</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>1</default_value>
+    </argument>
+    <argument>
+      <name>design_air_flow_rate</name>
+      <display_name>Multiplier for Design Air Flow Rate.</display_name>
+      <description>Multiplier for Design Air Flow Rate.</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>1</default_value>
+    </argument>
+    <argument>
+      <name>design_inlet_water_temperature</name>
+      <display_name>Multiplier for Inlet Water Temperature.</display_name>
+      <description>Multiplier for Inlet Water Temperature.</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>1</default_value>
+    </argument>
+    <argument>
+      <name>design_inlet_air_temperature</name>
+      <display_name>Multiplier for Inlet Air Temperature.</display_name>
+      <description>Multiplier for Inlet Air Temperature.</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>1</default_value>
+    </argument>
+    <argument>
+      <name>design_outlet_air_temperature</name>
+      <display_name>Multiplier for Outlet Air Temperature.</display_name>
+      <description>Multiplier for Outlet Air Temperature.</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>1</default_value>
+    </argument>
+    <argument>
+      <name>design_inlet_air_humidity_ratio</name>
+      <display_name>Multiplier for Inlet Air Humidity Ratio.</display_name>
+      <description>Multiplier for Inlet Air Humidity Ratio.</description>
+      <type>Double</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>1</default_value>
+    </argument>
+  </arguments>
+  <outputs />
+  <provenances />
+  <tags>
+    <tag>HVAC.Cooling</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Type</name>
+      <value>ModelMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <filename>README.md.erb</filename>
+      <filetype>erb</filetype>
+      <usage_type>readmeerb</usage_type>
+      <checksum>703C9964</checksum>
+    </file>
+    <file>
+      <filename>README.md</filename>
+      <filetype>md</filetype>
+      <usage_type>readme</usage_type>
+      <checksum>3C509F3A</checksum>
+    </file>
+    <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>A21A3ED2</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>2.1.0</identifier>
+        <min_compatible>2.1.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>1F1B7FFE</checksum>
+    </file>
+  </files>
+</measure>

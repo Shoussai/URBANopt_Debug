@@ -1,0 +1,29 @@
+/.bundle/
+/.yardoc
+/.ruby-version
+/Gemfile.lock
+/gems
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/test/
+/lib/measures/test_results
+/lib/measures/*/tests/output
+/lib/measures/staged
+
+.rubocop*s3*
+
+# rspec failure tracking
+.rspec_status
+
+# Ignore IDE files
+/.idea
+
+# Ignore mac specific files
+.DS_Store
+
+# Skip test results form local measure tester gem run
+/test_results/

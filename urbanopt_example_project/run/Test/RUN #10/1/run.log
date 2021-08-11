@@ -1,0 +1,84 @@
+[21:59:01.772327 WARN] No valid weather file defined in either the osm or osw.
+[21:59:05.657543 WARN] User-defined single floor area was used for calculation of total building floor area
+[21:59:05.657571 WARN] Cannot use custom height bar with single floor area method, will not create custom height bar.
+[21:59:08.539987 WARN] [openstudio.standards.Construction] Can only set the u-value of opaque constructions or simple glazing. U 0.48 SHGC 0.40 Dbl Ref-D Clr 6mm/13mm is not opaque or simple glazing.
+[21:59:08.540319 WARN] [openstudio.standards.Construction] Can only set the u-value of opaque constructions or simple glazing. U 0.44 SHGC 0.26 Dbl Ref-B-H Clr 6mm/13mm Air is not opaque or simple glazing.
+[21:59:08.540494 WARN] [openstudio.standards.Construction] Can only set the u-value of opaque constructions or simple glazing. Window_U_0.50_SHGC_0.40_Skylight_Frame_Width_0.430_in is not opaque or simple glazing.
+[21:59:08.542413 WARN] [openstudio.model.Model] Model has zone with
+[21:59:08.542552 WARN] [openstudio.model.Model] Model has zone with
+[21:59:08.542681 WARN] [openstudio.model.Model] Model has zone with
+[21:59:08.543029 WARN] [openstudio.model.Model] In model_add_typical, num_water_heaters = 1
+[21:59:08.736012 WARN] Office WholeBuilding - Lg Office A  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.736188 WARN] Office WholeBuilding - Lg Office B end_a - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.736542 WARN] Office WholeBuilding - Lg Office C  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.737424 WARN] Office OfficeLarge Main Data Center B  - Story Ground has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.747785 WARN] Office WholeBuilding - Lg Office B end_b - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.748023 WARN] Office WholeBuilding - Lg Office A  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.748148 WARN] Office WholeBuilding - Lg Office C  - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.748457 WARN] Office WholeBuilding - Lg Office B end_a - Story Mid has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.754134 WARN] FullServiceRestaurant Kitchen A  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.754534 WARN] FullServiceRestaurant Kitchen C  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.754649 WARN] FullServiceRestaurant Kitchen B end_a - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.754864 WARN] FullServiceRestaurant Dining B end_b - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.755187 WARN] FullServiceRestaurant Dining C  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.755303 WARN] FullServiceRestaurant Dining A  - Story Mid2 has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.761439 WARN] FullServiceRestaurant Dining C  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.761655 WARN] FullServiceRestaurant Dining A  - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.761878 WARN] FullServiceRestaurant Dining B end_a - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:08.762099 WARN] FullServiceRestaurant Dining B end_b - Story Top has one or more daylighting controls. Lighting loads from blended space type may affect lighting reduction from daylighting controls.
+[21:59:09.400213 WARN] Surface elevation not set for building 'Mixed_use 1'
+[21:59:09.400511 WARN] Reversing floor print
+[21:59:09.430957 WARN] Reversing floor print
+[21:59:09.463102 WARN] Reversing floor print
+[21:59:09.505255 WARN] Reversing floor print
+[21:59:09.549007 WARN] Reversing floor print
+[21:59:09.549293 WARN] Reversing floor print
+[21:59:09.549451 WARN] Reversing floor print
+[21:59:09.553803 WARN] Reversing floor print
+[21:59:09.553981 WARN] Reversing floor print
+[21:59:09.558536 WARN] Reversing floor print
+[21:59:09.558700 WARN] Reversing floor print
+[21:59:09.563695 WARN] Reversing floor print
+[21:59:09.563891 WARN] Reversing floor print
+[21:59:09.575063 WARN] Reversing floor print
+[21:59:09.587207 WARN] Reversing floor print
+[21:59:09.587412 WARN] Reversing floor print
+[21:59:30.001619 WARN] [openstudio.energyplus.SqlFile] Using EnergyPlusVersion version 9.5.0 which should have 'Year' field, but it's always zero
+[21:59:31.498758 WARN] Reporting Measure at /Users/shoussai/Desktop/STM_Models/urbanopt_example_project/.bundle/install/ruby/2.7.0/gems/urbanopt-reporting-0.4.1/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
+[22:03:00.359823 WARN] Reporting Measure at /Users/shoussai/Desktop/STM_Models/urbanopt_example_project/.bundle/install/ruby/2.7.0/gems/urbanopt-reporting-0.4.1/lib/measures/default_feature_reports/measure.rb is using the old format where the 'arguments' method does not take model. Please consider updating this to `def arguments(model)`.
+[22:03:00.478165 WARN] Query failed for Life-Cycle Cost Report and TableName='Present Value for Recurring, Nonrecurring and Energy Costs (Before Tax)' AND RowName='LCC_MAT - BUILDING - LIFE CYCLE COSTS' AND ColumnName='Cost'
+[22:03:00.478255 WARN] Query failed for Packaged Ice Thermal Storage Capacity
+[22:03:00.478354 WARN] Query failed for Ice Thermal Storage Capacity
+[22:03:00.486611 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Total End Uses' AND ColumnName='Steam'
+[22:03:00.504025 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Heating' AND ColumnName='Fuel Oil #2'
+[22:03:00.507108 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Cooling' AND ColumnName='Fuel Oil #2'
+[22:03:00.509983 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Interior Lighting' AND ColumnName='Fuel Oil #2'
+[22:03:00.512872 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Exterior Lighting' AND ColumnName='Fuel Oil #2'
+[22:03:00.515843 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Interior Equipment' AND ColumnName='Fuel Oil #2'
+[22:03:00.518922 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Exterior Equipment' AND ColumnName='Fuel Oil #2'
+[22:03:00.521842 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Fans' AND ColumnName='Fuel Oil #2'
+[22:03:00.524896 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Pumps' AND ColumnName='Fuel Oil #2'
+[22:03:00.528082 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Heat Rejection' AND ColumnName='Fuel Oil #2'
+[22:03:00.531260 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Humidification' AND ColumnName='Fuel Oil #2'
+[22:03:00.534396 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Heat Recovery' AND ColumnName='Fuel Oil #2'
+[22:03:00.537610 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Water Systems' AND ColumnName='Fuel Oil #2'
+[22:03:00.540810 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Refrigeration' AND ColumnName='Fuel Oil #2'
+[22:03:00.544019 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Generators' AND ColumnName='Fuel Oil #2'
+[22:03:00.571455 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Heating' AND ColumnName='Steam'
+[22:03:00.576021 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Cooling' AND ColumnName='Steam'
+[22:03:00.580841 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Interior Lighting' AND ColumnName='Steam'
+[22:03:00.585667 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Exterior Lighting' AND ColumnName='Steam'
+[22:03:00.590555 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Interior Equipment' AND ColumnName='Steam'
+[22:03:00.595789 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Exterior Equipment' AND ColumnName='Steam'
+[22:03:00.600434 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Fans' AND ColumnName='Steam'
+[22:03:00.605173 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Pumps' AND ColumnName='Steam'
+[22:03:00.609779 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Heat Rejection' AND ColumnName='Steam'
+[22:03:00.614259 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Humidification' AND ColumnName='Steam'
+[22:03:00.618824 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Heat Recovery' AND ColumnName='Steam'
+[22:03:00.623366 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Water Systems' AND ColumnName='Steam'
+[22:03:00.628333 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Refrigeration' AND ColumnName='Steam'
+[22:03:00.633353 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses' AND RowName='Generators' AND ColumnName='Steam'
+[22:03:00.636217 WARN] Query failed for AnnualBuildingUtilityPerformanceSummary and TableName='End Uses By Subcategory' AND RowName='Exterior Equipment:Electric Vehicles' AND ColumnName='Electricity'
+[22:03:00.639422 WARN] Query failed for Economics Results Summary Report and TableName='Annual Cost' AND RowName='Cost' AND ColumnName='Total'
+[22:03:00.642146 WARN] Query failed for Economics Results Summary Report and TableName='Annual Cost' AND RowName='Cost' AND ColumnName='Electric'
+[22:03:00.644761 WARN] Query failed for Economics Results Summary Report and TableName='Annual Cost' AND RowName='Cost' AND ColumnName='Natural Gas'

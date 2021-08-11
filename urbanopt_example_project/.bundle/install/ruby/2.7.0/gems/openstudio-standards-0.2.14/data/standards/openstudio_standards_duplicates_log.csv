@@ -1,0 +1,28 @@
+Spreadsheet Name,Worksheet Name,Object Index in Worksheet,Similarity of Duplicate,Duplicate Object
+OpenStudio_Standards-ashrae_90_1,materials,1262,different,U 0.75 SHGC 0.35 Simple Glazing|
+OpenStudio_Standards-ashrae_90_1,materials,1263,different,U 0.65 SHGC 0.35 Simple Glazing|
+OpenStudio_Standards-ashrae_90_1,materials,1305,different,U 0.98 SHGC 0.36 Simple Glazing|
+OpenStudio_Standards-ashrae_90_1,constructions,304,different,U 0.45 SHGC 0.25 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,321,different,U 0.36 SHGC 0.36 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,322,different,U 0.36 SHGC 0.38 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,323,different,U 0.34 SHGC 0.38 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,332,different,U 0.42 SHGC 0.25 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,386,different,U 0.98 SHGC 0.36 Simple Glazing Skylight
+OpenStudio_Standards-ashrae_90_1,constructions,414,different,U 0.53 SHGC 0.25 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,415,different,U 0.36 SHGC 0.4 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,416,different,U 0.51 SHGC 0.22 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,417,different,U 0.51 SHGC 0.23 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,418,different,U 0.47 SHGC 0.25 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,419,different,U 0.43 SHGC 0.25 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,420,different,U 0.37 SHGC 0.36 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,421,different,U 0.37 SHGC 0.38 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,422,different,U 0.35 SHGC 0.38 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,423,different,U 0.3 SHGC 0.4 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,constructions,424,different,U 0.27 SHGC 0.4 Simple Glazing Window
+OpenStudio_Standards-ashrae_90_1,refrigeration_system,86,same,90.1-2016|College|Any|Low Temperature
+OpenStudio_Standards-ashrae_90_1,refrigeration_system,106,same,90.1-2019|College|Any|Low Temperature
+OpenStudio_Standards-ashrae_90_1(space_types),space_types_infiltration,2077,different,90.1-2004|LargeHotel|GuestRoom5
+OpenStudio_Standards-ashrae_90_1(space_types),space_types_infiltration,2078,different,90.1-2004|LargeHotel|GuestRoom6
+OpenStudio_Standards-ashrae_90_1(space_types),space_types_infiltration,2079,different,90.1-2004|LargeHotel|GuestRoom7
+OpenStudio_Standards-ashrae_90_1(space_types),space_types_infiltration,2080,different,90.1-2007|LargeHotel|GuestRoom5
+OpenStudio_Standards-ashrae_90_1(space_types),space_types_infiltration,2081,different,90.1-2007|LargeHotel|GuestRoom6

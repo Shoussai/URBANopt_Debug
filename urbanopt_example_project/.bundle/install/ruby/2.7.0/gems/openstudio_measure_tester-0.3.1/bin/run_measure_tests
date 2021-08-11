@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'openstudio_measure_tester'
+
+measure_dir = File.absolute_path(ARGV[0], Dir.pwd)
+
+if !File.exist?(measure_dir)
+  puts "'#{measure_dir}}' does not exist"
+  exit
+end
+
+begin
+  runner = OpenStudioMeasureTester::Runner.new(measure_dir)
+  runner.run_all(Dir.pwd)
+rescue StandardError => e
+  puts
+  puts '!!!!!!!!!!!!!!!!!!!!! Error Occurred !!!!!!!!!!!!!!!!!!!!!'
+  puts e.message
+  puts e.backtrace
+  puts '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
+  puts
+end

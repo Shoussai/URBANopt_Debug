@@ -1,0 +1,28 @@
+/.idea/
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/test/
+**/test_results/
+/openstudio_style
+# Measure test outputs
+**/tests/output/
+
+# rspec failure tracking
+.rspec_status
+rspec.html
+Gemfile.lock
+**/.rubocop-http*
+/rubocop-results.xml
+!spec/files/rubocop-results.xml
+spec/files/rubocop/rubocop.json
+spec/**/.rubocop.yml
+
+# mac and rbenv stuff
+.DS_Store
+.ruby-version

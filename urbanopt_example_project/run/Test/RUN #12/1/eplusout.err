@@ -1,0 +1,1035 @@
+Program Version,EnergyPlus, Version 9.5.0-de239b2e5f, YMD=2021.08.10 22:11,
+   ** Warning ** Timestep: Requested number (1) is less than the suggested minimum of 4.
+   **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="42 SPACE(S) OCC SCH DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="42 SPACE(S) OCC SCH SATURDAY", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="42 SPACE(S) OCC SCH SUMMER DESIGN DAY", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="42 SPACE(S) OCC SCH SUNDAY", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="42 SPACE(S) OCC SCH WINTER DESIGN DAY", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="ECONOMIZER MAX OA FRACTION 70 PCT DEFAULT", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 1", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 2", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 3", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 4", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 5", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 6", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 7", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval="SCHEDULE DAY 8", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="ECONOMIZER MAX OA FRACTION 70 PCT", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Year="ELEVATOR SCHEDULE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS OFF DISCRETE", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** ProcessScheduleInput: Schedule:Constant="ALWAYS ON CONTINUOUS", Blank Schedule Type Limits Name input -- will not be validated.
+   ** Warning ** GetHTSurfaceData: Surfaces with interface to Ground found but no "Ground Temperatures" were input.
+   **   ~~~   ** Found first in surface=SURFACE 1
+   **   ~~~   ** Defaults, constant throughout the year of (18.0) will be used.
+   ** Warning ** CheckUsedConstructions: There are 10 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Warning ** Seems like you already tried to get a Handle on this Actuator 1times.
+   **   ~~~   ** Occurred for componentType='SCHEDULE:YEAR', controlType='SCHEDULE VALUE', uniqueKey='OFFICELARGE CLGSETP_SCH_NO_SETBACK'.
+   **   ~~~   ** You should take note that there is a risk of overwritting.
+   ** Warning ** Seems like you already tried to get a Handle on this Actuator 1times.
+   **   ~~~   ** Occurred for componentType='SCHEDULE:YEAR', controlType='SCHEDULE VALUE', uniqueKey='OFFICELARGE HTGSETP_SCH_YES_OPTIMUM'.
+   **   ~~~   ** You should take note that there is a risk of overwritting.
+   ** Warning ** DetermineShadowingCombinations: There are 2 surfaces which are receiving surfaces and are non-convex.
+   **   ~~~   ** ...Shadowing values may be inaccurate. Check .shd report file for more surface shading details
+   **   ~~~   ** ...Add Output:Diagnostics,DisplayExtraWarnings; to see individual warnings for each surface.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 1 THERMALZONE 1", only 0.502 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 1 THERMALZONE 2", only 0.543 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 1 THERMALZONE 3", only 0.555 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 1 THERMALZONE 4", only 0.549 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 1 THERMALZONE 5", only 0.548 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 1 THERMALZONE 6", only 0.560 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 1 THERMALZONE 7", only 0.515 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 2 THERMALZONE 1", only 0.502 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 2 THERMALZONE 2", only 0.543 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 2 THERMALZONE 3", only 0.555 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 2 THERMALZONE 4", only 0.549 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 2 THERMALZONE 5", only 0.548 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 2 THERMALZONE 6", only 0.560 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 2 THERMALZONE 7", only 0.515 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 3 THERMALZONE 1", only 0.987 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 3 THERMALZONE 2", only 0.999 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 3 THERMALZONE 3", only 0.999 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 3 THERMALZONE 4", only 0.987 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 3 THERMALZONE 5", only 0.985 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 3 THERMALZONE 7", only 0.991 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 4 THERMALZONE 1", only 0.987 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 4 THERMALZONE 2", only 0.999 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 4 THERMALZONE 3", only 0.999 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 4 THERMALZONE 4", only 0.987 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 4 THERMALZONE 5", only 0.985 of the zone is controlled.
+   ** Warning ** GetDaylightingControls: Fraction of Zone controlled by the Daylighting reference points is < 1.0.
+   **   ~~~   ** ..discovered in "Daylighting:Controls" for Zone="BUILDING STORY 4 THERMALZONE 7", only 0.991 of the zone is controlled.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 1 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE A  - STORY GROUND INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 1 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE A END_A - STORY GROUND INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 1 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE B END_A - STORY GROUND INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 1 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE C  - STORY GROUND INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 1 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE C END_A - STORY GROUND INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE A  - STORY MID INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE A END_A - STORY MID INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE A END_B - STORY MID INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE B END_A - STORY MID INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE B END_B - STORY MID INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE C  - STORY MID INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE C END_A - STORY MID INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 2 THERMALZONE OFFICE WHOLEBUILDING - LG OFFICE C END_B - STORY MID INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING A  - STORY MID2 INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING A END_B - STORY MID2 INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING B END_B - STORY MID2 INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING C  - STORY MID2 INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT DINING C END_B - STORY MID2 INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT KITCHEN A  - STORY MID2 INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT KITCHEN A END_A - STORY MID2 INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT KITCHEN B END_A - STORY MID2 INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT KITCHEN C  - STORY MID2 INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetSimpleAirModelInputs: ZoneInfiltration:DesignFlowRate="BUILDING STORY 3 THERMALZONE FULLSERVICERESTAURANT KITCHEN C END_A - STORY MID2 INFILTRATION", Design Flow Rate Calculation Method specifies Flow per Exterior Surface Area, but Exterior Surface Area = 0.  0 Infiltration will result.
+   ** Warning ** GetElectricEIRChillerInput: Chiller:Electric:EIR="90.1-2013 WATERCOOLED  ROTARY SCREW CHILLER 0 2788TONS 0.6KW/TON"
+   **   ~~~   ** Energy input ratio as a function of temperature curve output is not equal to 1.0 (+ or - 10%) at reference conditions.
+   **   ~~~   ** Curve output at reference conditions = 1.205
+   ** Warning ** Calculated design heating load for zone=BUILDING STORY 2 THERMALZONE is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=BUILDING STORY 3 THERMALZONE is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ************* Beginning System Sizing Calculations
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 1 THERMALZONE VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 1 THERMALZONE 1 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 1 THERMALZONE 2 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 1 THERMALZONE 3 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 1 THERMALZONE 4 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 1 THERMALZONE 5 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 1 THERMALZONE 6 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 1 THERMALZONE 7 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 2 THERMALZONE VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 2 THERMALZONE 1 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 2 THERMALZONE 2 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 2 THERMALZONE 3 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 2 THERMALZONE 4 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 2 THERMALZONE 5 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 2 THERMALZONE 6 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 2 THERMALZONE 7 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 3 THERMALZONE VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 3 THERMALZONE 1 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 3 THERMALZONE 2 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 3 THERMALZONE 3 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 3 THERMALZONE 4 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 3 THERMALZONE 5 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 3 THERMALZONE 6 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 3 THERMALZONE 7 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 4 THERMALZONE VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 4 THERMALZONE 1 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 4 THERMALZONE 2 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 4 THERMALZONE 3 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 4 THERMALZONE 4 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 4 THERMALZONE 5 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 4 THERMALZONE 6 VAV TERMINAL
+   ** Warning ** Since Zone Minimum Air Flow Input Method = CONSTANT, input for Fixed Minimum Air Flow Rate will be ignored.
+   **   ~~~   ** Occurs in AirTerminal:SingleDuct:VAV:Reheat = BUILDING STORY 4 THERMALZONE 7 VAV TERMINAL
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 1 THERMALZONE".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 1 THERMALZONE 1".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 1 THERMALZONE 2".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 1 THERMALZONE 3".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 1 THERMALZONE 4".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 1 THERMALZONE 5".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 1 THERMALZONE 6".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 1 THERMALZONE 7".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 1 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 2 THERMALZONE".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 1 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 2 THERMALZONE 1".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 1 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 2 THERMALZONE 2".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 1 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 2 THERMALZONE 3".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 1 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 2 THERMALZONE 4".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 1 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 2 THERMALZONE 5".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 1 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 2 THERMALZONE 6".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 1 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 2 THERMALZONE 7".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 2 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 3 THERMALZONE".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 2 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 3 THERMALZONE 1".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 2 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 3 THERMALZONE 2".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 2 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 3 THERMALZONE 3".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 2 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 3 THERMALZONE 4".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 2 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 3 THERMALZONE 5".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 2 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 3 THERMALZONE 6".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 2 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 3 THERMALZONE 7".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 3 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 4 THERMALZONE".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 3 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 4 THERMALZONE 1".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 3 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 4 THERMALZONE 2".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 3 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 4 THERMALZONE 3".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 3 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 4 THERMALZONE 4".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 3 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 4 THERMALZONE 5".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 3 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 4 THERMALZONE 6".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** GetOAControllerInputs: Controller:MechanicalVentilation="8 ZONE VAV 3 VENT CONTROLLER
+   **   ~~~   ** Cannot locate a matching DesignSpecification:ZoneAirDistribution object for Zone="BUILDING STORY 4 THERMALZONE 7".
+   **   ~~~   ** Using default zone air distribution effectiveness of 1.0 for heating and cooling.
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water 8 ZONE VAV CLG COIL
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 24.2764
+   **   ~~~   **                                    Wair,in = 9.741810E-003
+   **   ~~~   **                                    Twater,in = 6.6667
+   **   ~~~   **                                    Tair,out = 10.9191
+   **   ~~~   **                                    Wair,out = 8.500000E-003
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water 8 ZONE VAV 1 CLG COIL
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 24.2207
+   **   ~~~   **                                    Wair,in = 1.004047E-002
+   **   ~~~   **                                    Twater,in = 6.6667
+   **   ~~~   **                                    Tair,out = 10.9201
+   **   ~~~   **                                    Wair,out = 8.500000E-003
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water 8 ZONE VAV 2 CLG COIL
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 28.0141
+   **   ~~~   **                                    Wair,in = 1.210013E-002
+   **   ~~~   **                                    Twater,in = 6.6667
+   **   ~~~   **                                    Tair,out = 10.9192
+   **   ~~~   **                                    Wair,out = 8.500000E-003
+   ** Warning ** In calculating the design coil UA for Coil:Cooling:Water 8 ZONE VAV 3 CLG COIL
+   **   ~~~   ** the coil bypass factor is unrealistically large;
+   **   ~~~   ** The initial design conditions are: Tair,in = 28.5953
+   **   ~~~   **                                    Wair,in = 1.259421E-002
+   **   ~~~   **                                    Twater,in = 6.6667
+   **   ~~~   **                                    Tair,out = 10.9209
+   **   ~~~   **                                    Wair,out = 8.500000E-003
+   ** Warning ** Check input. Pump nominal power or motor efficiency is set to 0, for pump=BOOSTER WATER LOOP PUMP
+   ** Warning ** Meter:Custom="HEATREJECTION:OTHERFUELS", invalid Output Variable or Meter Name="HEATREJECTION:GASOLINE".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATREJECTION:OTHERFUELS", invalid Output Variable or Meter Name="HEATREJECTION:DIESEL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATREJECTION:OTHERFUELS", invalid Output Variable or Meter Name="HEATREJECTION:COAL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATREJECTION:OTHERFUELS", invalid Output Variable or Meter Name="HEATREJECTION:FUELOILNO1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATREJECTION:OTHERFUELS", invalid Output Variable or Meter Name="HEATREJECTION:OTHERFUEL1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATREJECTION:OTHERFUELS", invalid Output Variable or Meter Name="HEATREJECTION:STEAM".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATREJECTION:OTHERFUELS", no items assigned 
+   **   ~~~   ** ...will not be shown with the Meter results. This may be caused by a Meter:Custom be assigned to another Meter:Custom.
+   ** Warning ** Meter:Custom="HEATING:OTHERFUELS", invalid Output Variable or Meter Name="HEATING:GASOLINE".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATING:OTHERFUELS", invalid Output Variable or Meter Name="HEATING:DIESEL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATING:OTHERFUELS", invalid Output Variable or Meter Name="HEATING:COAL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATING:OTHERFUELS", invalid Output Variable or Meter Name="HEATING:FUELOILNO1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATING:OTHERFUELS", invalid Output Variable or Meter Name="HEATING:OTHERFUEL1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATING:OTHERFUELS", invalid Output Variable or Meter Name="HEATING:STEAM".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="HEATING:OTHERFUELS", no items assigned 
+   **   ~~~   ** ...will not be shown with the Meter results. This may be caused by a Meter:Custom be assigned to another Meter:Custom.
+   ** Warning ** Meter:Custom="WATERSYSTEMS:OTHERFUELS", invalid Output Variable or Meter Name="WATERSYSTEMS:GASOLINE".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="WATERSYSTEMS:OTHERFUELS", invalid Output Variable or Meter Name="WATERSYSTEMS:DIESEL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="WATERSYSTEMS:OTHERFUELS", invalid Output Variable or Meter Name="WATERSYSTEMS:COAL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="WATERSYSTEMS:OTHERFUELS", invalid Output Variable or Meter Name="WATERSYSTEMS:FUELOILNO1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="WATERSYSTEMS:OTHERFUELS", invalid Output Variable or Meter Name="WATERSYSTEMS:OTHERFUEL1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="WATERSYSTEMS:OTHERFUELS", invalid Output Variable or Meter Name="WATERSYSTEMS:STEAM".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="WATERSYSTEMS:OTHERFUELS", no items assigned 
+   **   ~~~   ** ...will not be shown with the Meter results. This may be caused by a Meter:Custom be assigned to another Meter:Custom.
+   ** Warning ** Meter:Custom="INTERIOREQUIPMENT:OTHERFUELS", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:GASOLINE".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="INTERIOREQUIPMENT:OTHERFUELS", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:DIESEL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="INTERIOREQUIPMENT:OTHERFUELS", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:COAL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="INTERIOREQUIPMENT:OTHERFUELS", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:FUELOILNO1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="INTERIOREQUIPMENT:OTHERFUELS", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:OTHERFUEL1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="INTERIOREQUIPMENT:OTHERFUELS", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:STEAM".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="INTERIOREQUIPMENT:OTHERFUELS", no items assigned 
+   **   ~~~   ** ...will not be shown with the Meter results. This may be caused by a Meter:Custom be assigned to another Meter:Custom.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATREJECTION:GASOLINE".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATREJECTION:DIESEL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATREJECTION:COAL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATREJECTION:FUELOILNO1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATREJECTION:OTHERFUEL1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATREJECTION:STEAM".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATING:GASOLINE".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATING:DIESEL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATING:COAL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATING:FUELOILNO1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATING:OTHERFUEL1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="HEATING:STEAM".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="WATERSYSTEMS:GASOLINE".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="WATERSYSTEMS:DIESEL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="WATERSYSTEMS:COAL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="WATERSYSTEMS:FUELOILNO1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="WATERSYSTEMS:OTHERFUEL1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="WATERSYSTEMS:STEAM".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:GASOLINE".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:DIESEL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:COAL".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:FUELOILNO1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:OTHERFUEL1".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", invalid Output Variable or Meter Name="INTERIOREQUIPMENT:STEAM".
+   **   ~~~   ** ...will not be shown with the Meter results.
+   ** Warning ** Meter:Custom="OTHERFUELS:FACILITY", no items assigned 
+   **   ~~~   ** ...will not be shown with the Meter results. This may be caused by a Meter:Custom be assigned to another Meter:Custom.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIORLIGHTING:ELECTRICITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIORLIGHTING:ELECTRICITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="GAS:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="COOLING:NATURALGAS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="COOLING:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="COOLING:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="COOLING:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="COOLING:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="COOLING:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIORLIGHTS:NATURALGAS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIORLIGHTS:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIORLIGHTS:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIORLIGHTS:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIORLIGHTS:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIORLIGHTS:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIORLIGHTS:NATURALGAS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIORLIGHTS:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIORLIGHTS:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIORLIGHTS:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIORLIGHTS:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIORLIGHTS:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIOREQUIPMENT:ELECTRICITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIOREQUIPMENT:NATURALGAS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIOREQUIPMENT:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIOREQUIPMENT:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIOREQUIPMENT:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIOREQUIPMENT:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="EXTERIOREQUIPMENT:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="FANS:NATURALGAS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="FANS:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="FANS:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="FANS:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="FANS:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="FANS:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="PUMPS:NATURALGAS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="PUMPS:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="PUMPS:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="PUMPS:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="PUMPS:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="PUMPS:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:NATURALGAS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HUMIDIFIER:ELECTRICITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HUMIDIFIER:NATURALGAS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HUMIDIFIER:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HUMIDIFIER:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HUMIDIFIER:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HUMIDIFIER:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HUMIDIFIER:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATRECOVERY:NATURALGAS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATRECOVERY:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATRECOVERY:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATRECOVERY:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATRECOVERY:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATRECOVERY:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="WATERSYSTEMS:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="WATERSYSTEMS:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="WATERSYSTEMS:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="WATERSYSTEMS:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="REFRIGERATION:ELECTRICITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="REFRIGERATION:NATURALGAS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="REFRIGERATION:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="REFRIGERATION:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="REFRIGERATION:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="REFRIGERATION:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="REFRIGERATION:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="GENERATORS:ELECTRICITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="GENERATORS:NATURALGAS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="GENERATORS:FUELOILNO2" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="GENERATORS:PROPANE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="GENERATORS:DISTRICTCOOLING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="GENERATORS:DISTRICTHEATING" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="GENERATORS:WATER" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="FUELOILNO2:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="PROPANE:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTCOOLING:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="DISTRICTHEATING:FACILITY" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:GASOLINE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:DIESEL" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:COAL" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:FUELOILNO1" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:OTHERFUEL1" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:STEAM" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATREJECTION:OTHERFUELS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:GASOLINE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:DIESEL" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:COAL" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:FUELOILNO1" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:OTHERFUEL1" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:STEAM" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="HEATING:OTHERFUELS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="WATERSYSTEMS:GASOLINE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="WATERSYSTEMS:DIESEL" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="WATERSYSTEMS:COAL" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="WATERSYSTEMS:FUELOILNO1" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="WATERSYSTEMS:OTHERFUEL1" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="WATERSYSTEMS:STEAM" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="WATERSYSTEMS:OTHERFUELS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:GASOLINE" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:DIESEL" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:COAL" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:FUELOILNO1" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:OTHERFUEL1" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:STEAM" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="INTERIOREQUIPMENT:OTHERFUELS" - not found.
+   ** Warning ** Output:Meter: invalid Key Name="OTHERFUELS:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly requested for "Electricity:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="ELECTRICITYPRODUCED:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly requested for "NaturalGas:Facility" (TimeStep), already on "Output:Meter". Will report to both eplusout.eso and eplusout.mtr
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="DISTRICTCOOLING:FACILITY" - not found.
+   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name="DISTRICTHEATING:FACILITY" - not found.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=8 ZONE VAV OA CONTROLLER, Min OA fraction is used.
+   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
+   **   ~~~   ** Minimum OA fraction = 0.1643, Mech Vent OA fraction = 9.8578E-002
+   **   ~~~   **  Environment=BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1 HVAC Sizing Pass 1, at Simulation time=07/21 00:00 - 01:00
+   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=8 ZONE VAV 1 OA CONTROLLER, Min OA fraction is used.
+   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
+   **   ~~~   ** Minimum OA fraction = 0.2032, Mech Vent OA fraction = 0.1219
+   **   ~~~   **  Environment=BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1 HVAC Sizing Pass 1, at Simulation time=07/21 00:00 - 01:00
+   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=8 ZONE VAV 2 OA CONTROLLER, Min OA fraction is used.
+   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
+   **   ~~~   ** Minimum OA fraction = 0.4384, Mech Vent OA fraction = 0.2630
+   **   ~~~   **  Environment=BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1 HVAC Sizing Pass 1, at Simulation time=07/21 00:00 - 01:00
+   ** Warning ** CalcOAController: Minimum OA fraction > Mechanical Ventilation Controller request for Controller:OutdoorAir=8 ZONE VAV 3 OA CONTROLLER, Min OA fraction is used.
+   **   ~~~   ** This may be overriding desired ventilation controls. Check inputs for Minimum Outdoor Air Flow Rate, Minimum Outdoor Air Schedule Name and Controller:MechanicalVentilation
+   **   ~~~   ** Minimum OA fraction = 0.6796, Mech Vent OA fraction = 0.4078
+   **   ~~~   **  Environment=BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1 HVAC Sizing Pass 1, at Simulation time=07/21 00:00 - 01:00
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'HUMIDIFIER:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'COGENERATION:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY' invalid Variable or Meter Name 'REFRIGERATION:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'COOLING:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS' invalid Variable or Meter Name 'COGENERATION:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'FANS:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'PUMPS:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HEATING:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'COOLING:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING' invalid Variable or Meter Name 'COGENERATION:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'FANS:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'PUMPS:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HEATING:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'COOLING:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING' invalid Variable or Meter Name 'COGENERATION:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'HUMIDIFIER:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - ELECTRICITY PEAK DEMAND' invalid Variable or Meter Name 'COGENERATION:ELECTRICITY'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'COOLING:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - NATURAL GAS PEAK DEMAND' invalid Variable or Meter Name 'COGENERATION:NATURALGAS'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'DISTRICTHEATING:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'FANS:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'PUMPS:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HEATING:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'COOLING:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT HEATING PEAK DEMAND' invalid Variable or Meter Name 'COGENERATION:DISTRICTHEATING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'DISTRICTCOOLING:FACILITY'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'INTERIORLIGHTS:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIORLIGHTS:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'INTERIOREQUIPMENT:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'EXTERIOREQUIPMENT:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'FANS:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'PUMPS:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HEATING:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'COOLING:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HEATREJECTION:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HUMIDIFIER:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'HEATRECOVERY:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'WATERSYSTEMS:DISTRICTCOOLING'
+   ** Warning ** In Output:Table:Monthly 'BUILDING ENERGY PERFORMANCE - DISTRICT COOLING PEAK DEMAND' invalid Variable or Meter Name 'COGENERATION:DISTRICTCOOLING'
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Water flow rate ratio is outside model boundaries at 1.25.
+   **   ~~~   **  ...Valid range = 0.75 to 1.25. Occurrence info = BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1 HVAC Sizing Pass 1, 07/21 07:00 - 07:09
+   **   ~~~   **  ...Water flow rate ratio passed to the model = 1.25000
+   **   ~~~   **  ...Water flow rate ratios outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Water flow rate ratio is outside model boundaries at 1.25.
+   **   ~~~   **  ...Valid range = 0.75 to 1.25. Occurrence info = BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1 HVAC Sizing Pass 1, 07/21 07:26 - 07:34
+   **   ~~~   **  ...Water flow rate ratio passed to the model = 1.25000
+   **   ~~~   **  ...Water flow rate ratios outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Water flow rate ratio is outside model boundaries at 1.25.
+   **   ~~~   **  ...Valid range = 0.75 to 1.25. Occurrence info = BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1 HVAC Sizing Pass 1, 07/21 07:34 - 07:43
+   **   ~~~   **  ...Water flow rate ratio passed to the model = 1.25000
+   **   ~~~   **  ...Water flow rate ratios outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Water flow rate ratio is outside model boundaries at 1.25.
+   **   ~~~   **  ...Valid range = 0.75 to 1.25. Occurrence info = BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1 HVAC Sizing Pass 1, 07/21 07:43 - 07:51
+   **   ~~~   **  ...Water flow rate ratio passed to the model = 1.25000
+   **   ~~~   **  ...Water flow rate ratios outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Water flow rate ratio is outside model boundaries at 1.25.
+   **   ~~~   **  ...Valid range = 0.75 to 1.25. Occurrence info = BUFFALO NIAGARA INTL AP ANN CLG .4% CONDNS DB=>MWB 1 HVAC Sizing Pass 1, 07/21 07:51 - 08:00
+   **   ~~~   **  ...Water flow rate ratio passed to the model = 1.25000
+   **   ~~~   **  ...Water flow rate ratios outside model boundaries may not adversely affect tower performance.
+   ** Warning ** More than 4% of time (1.0 hours) uncomfortable in one or more zones 
+   **   ~~~   ** Based on ASHRAE 55-2004 graph (Section 5.2.1.1)
+   **   ~~~   ** During SizingPeriod Environment [01/21 - 01/21]: BUFFALO NIAGARA INTL AP ANN HTG 99.6% CONDNS DB 1 HVAC Sizing Pass 1
+   **   ~~~   ** 48.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE
+   **   ~~~   ** 48.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 1
+   **   ~~~   ** 48.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 2
+   **   ~~~   ** 48.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 3
+   **   ~~~   ** 48.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 4
+   **   ~~~   ** 48.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 5
+   **   ~~~   ** 48.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 6
+   **   ~~~   ** 48.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 7
+   **   ~~~   ** 25.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE
+   **   ~~~   ** 20.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE 2
+   **   ~~~   ** 24.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE 4
+   **   ~~~   ** 2.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE 5
+   **   ~~~   ** 23.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE 6
+   ************* Beginning Simulation
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 1 THERMALZONE 1" did not converge after 25 warmup days.
+   **   ~~~   ** See Warmup Convergence Information in .eio file for details.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 4.41E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 1.49E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 7.0459E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 0.9467 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 2 THERMALZONE 1" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 6.79E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 7.84E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 4.5931E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 0.8371 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 2 THERMALZONE 2" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 6.54E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 0.14 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 4.1643E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 1.8114 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 2 THERMALZONE 3" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 4.58E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 9.28E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 4.2203E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 2.6712 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 2 THERMALZONE 4" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 5.10E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 7.78E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 4.7791E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 2.7522 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 2 THERMALZONE 5" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 7.82E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 7.53E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 4.5434E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 2.4832 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 2 THERMALZONE 6" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 5.31E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 8.60E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 4.6573E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 3.4136 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 2 THERMALZONE 7" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 3.86E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 5.27E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 5.2027E-002 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 3.0221 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 3 THERMALZONE 3" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 1.37E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 4.81E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.8436 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 4.8993E-003 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 3 THERMALZONE 5" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 1.37E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 5.19E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 1.0272 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 1.2087E-003 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 3 THERMALZONE 6" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 1.37E-002 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 7.54E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.9681 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 4.0821E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 4 THERMALZONE 1" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 6.53E-004 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 2.41E-004 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.2733 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 1.5071E-006 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 4 THERMALZONE 2" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 3.36E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 1.16E-004 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.2963 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 2.7591E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 4 THERMALZONE 3" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 4.89E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 6.26E-004 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.2756 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 1.1676E-002 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 4 THERMALZONE 4" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 5.02E-004 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 2.24E-004 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.2974 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 7.0448E-003 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 4 THERMALZONE 5" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 7.44E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 1.42E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.2796 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 8.3598E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 4 THERMALZONE 6" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 1.41E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 3.15E-004 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.2945 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 7.4041E-003 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Severe  ** CheckWarmupConvergence: Loads Initialization, Zone="BUILDING STORY 4 THERMALZONE 7" did not converge after 25 warmup days.
+   **   ~~~   ** ...Environment(RunPeriod)="RUN PERIOD 1"
+   **   ~~~   ** ..Max Temp Comparison = 2.68E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Min Temp Comparison = 1.01E-003 vs Temperature Convergence Tolerance=0.40 - Pass Convergence
+   **   ~~~   ** ..Max Heat Load Comparison = 0.2707 vs Loads Convergence Tolerance=4.00E-002 - Fail Convergence
+   **   ~~~   ** ..Max Cool Load Comparison = 5.0913E-004 vs Loads Convergence Tolerance=4.00E-002 - Pass Convergence
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is outside model boundaries at -1.22.
+   **   ~~~   **  ...Valid range = -1.00 to 26.67. Occurrence info = RUN PERIOD 1, 01/01 00:27 - 00:33
+   **   ~~~   **  ...Inlet air wet-bulb temperature passed to the model = -1.000000
+   **   ~~~   **  ...Wet-bulb temperatures outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Tower approach temperature is outside model boundaries at 22.33.
+   **   ~~~   **  ...Valid range = 1.11 to 11.11. Occurrence info = RUN PERIOD 1, 01/01 00:27 - 00:33
+   **   ~~~   **  ...Tower approach temperature passed to the model = 22.33078
+   **   ~~~   **  ...Approach temperatures outside model boundaries may not adversely affect tower performance.
+   **   ~~~   **  ...This is not an unexpected occurrence when simulating actual conditions.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is outside model boundaries at -1.22.
+   **   ~~~   **  ...Valid range = -1.00 to 26.67. Occurrence info = RUN PERIOD 1, 01/01 00:40 - 00:47
+   **   ~~~   **  ...Inlet air wet-bulb temperature passed to the model = -1.000000
+   **   ~~~   **  ...Wet-bulb temperatures outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is outside model boundaries at -1.22.
+   **   ~~~   **  ...Valid range = -1.00 to 26.67. Occurrence info = RUN PERIOD 1, 01/01 00:53 - 01:00
+   **   ~~~   **  ...Inlet air wet-bulb temperature passed to the model = -1.000000
+   **   ~~~   **  ...Wet-bulb temperatures outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is outside model boundaries at -1.22.
+   **   ~~~   **  ...Valid range = -1.00 to 26.67. Occurrence info = RUN PERIOD 1, 01/01 01:00 - 01:09
+   **   ~~~   **  ...Inlet air wet-bulb temperature passed to the model = -1.000000
+   **   ~~~   **  ...Wet-bulb temperatures outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is outside model boundaries at -1.70.
+   **   ~~~   **  ...Valid range = -1.00 to 26.67. Occurrence info = RUN PERIOD 1, 01/01 04:26 - 04:30
+   **   ~~~   **  ...Inlet air wet-bulb temperature passed to the model = -1.000000
+   **   ~~~   **  ...Wet-bulb temperatures outside model boundaries may not adversely affect tower performance.
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Tower range temperature is outside model boundaries at 8.47E-003.
+   **   ~~~   **  ...Valid range = 1.11 to 11.11. Occurrence info = RUN PERIOD 1, 01/01 04:41 - 04:45
+   **   ~~~   **  ...Tower range temperature passed to the model = 8.46924E-003
+   **   ~~~   **  ...Range temperatures outside model boundaries may not adversely affect tower performance.
+   **   ~~~   **  ...This is not an unexpected occurrence when simulating actual conditions.
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "8 ZONE VAV ERV"
+   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
+   **   ~~~   ** Air volume flow rate ratio = 1.516. Environment=RUN PERIOD 1, at Simulation time=01/02 17:00 - 18:00
+   ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Cooling tower air flow rate ratio calculation failed 
+   **   ~~~   ** ...with conditions as Twb = -1.00, Trange =  4.30, Tapproach = 22.81, and water flow rate ratio =  1.25
+   **   ~~~   ** ...a solution could not be found within the valid range of air flow rate ratios
+   **   ~~~   **  ...Valid air flow rate ratio range =  0.20 to 1.0.
+   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=01/02 19:00 - 20:00
+   **   ~~~   ** ...Consider modifying the design approach or design range temperature for this tower.
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "8 ZONE VAV 1 ERV"
+   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
+   **   ~~~   ** Air volume flow rate ratio = 1.544. Environment=RUN PERIOD 1, at Simulation time=01/04 10:30 - 10:45
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/09 16:00 - 17:00
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on each max iteration exceeded.
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/09 16:20 - 16:40
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "8 ZONE VAV 2 ERV"
+   **   ~~~   ** Average air volume flow rate is <50% or >130% of the nominal HX supply air volume flow rate.
+   **   ~~~   ** Air volume flow rate ratio = 1.569. Environment=RUN PERIOD 1, at Simulation time=01/10 20:00 - 21:00
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/11 08:40 - 09:00
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/11 14:00 - 15:00
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/11 14:00 - 14:30
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/11 14:30 - 15:00
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/11 18:30 - 18:38
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/13 12:15 - 12:30
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/13 12:30 - 12:45
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/13 12:45 - 13:00
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/13 14:40 - 14:50
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/13 16:48 - 17:00
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/14 11:00 - 12:00
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Warning ** SimHVAC: Maximum iterations (20) exceeded for all HVAC loops, at RUN PERIOD 1, 01/15 11:36 - 11:48
+   **   ~~~   ** The solution for one or more of the Air Loop HVAC systems did not appear to converge
+   ** Severe  ** FindRootSimpleController: Controller error for controller = "8 ZONE VAV 2 CLG COIL CONTROLLER"
+   **   ~~~   **  Environment=RUN PERIOD 1, at Simulation time=04/17 21:00 - 22:00
+   **   ~~~   **   Controller function is inconsistent with user specified controller action = Reverse action
+   **   ~~~   **   Actuator will be set to maximum action
+   **   ~~~   ** Controller control type=Temperature
+   **   ~~~   ** Controller temperature setpoint = 14.68 [C]
+   **   ~~~   ** Controller sensed temperature = 15.78 [C]
+   **   ~~~   ** Controller actuator mass flow rate set to 196.54 [kg/s]
+   **   ~~~   ** Controller actuator temperature = 16.55 [C]
+   **   ~~~   **   Note: Chilled water coils should be reverse action and the entering chilled
+   **   ~~~   **         water temperature (controller actuator temperature) should be below the setpoint temperature
+   **   ~~~   **   Note: Hot water coils should be normal action and the entering hot
+   **   ~~~   **         water temperature (controller actuator temperature) should be above the setpoint temperature
+   ** Warning ** More than 4% of time (350.4 hours) uncomfortable in one or more zones 
+   **   ~~~   ** Based on ASHRAE 55-2004 graph (Section 5.2.1.1)
+   **   ~~~   ** During Environment [01/01/2017 - 12/31/2017]: RUN PERIOD 1
+   **   ~~~   ** 2146.0 hours were uncomfortable in zone: BUILDING STORY 1 THERMALZONE 1
+   **   ~~~   ** 1722.0 hours were uncomfortable in zone: BUILDING STORY 1 THERMALZONE 2
+   **   ~~~   ** 2209.0 hours were uncomfortable in zone: BUILDING STORY 1 THERMALZONE 3
+   **   ~~~   ** 2715.0 hours were uncomfortable in zone: BUILDING STORY 1 THERMALZONE 4
+   **   ~~~   ** 2380.0 hours were uncomfortable in zone: BUILDING STORY 1 THERMALZONE 5
+   **   ~~~   ** 2786.0 hours were uncomfortable in zone: BUILDING STORY 1 THERMALZONE 6
+   **   ~~~   ** 2343.0 hours were uncomfortable in zone: BUILDING STORY 1 THERMALZONE 7
+   **   ~~~   ** 2616.0 hours were uncomfortable in zone: BUILDING STORY 2 THERMALZONE 1
+   **   ~~~   ** 2190.0 hours were uncomfortable in zone: BUILDING STORY 2 THERMALZONE 2
+   **   ~~~   ** 2571.0 hours were uncomfortable in zone: BUILDING STORY 2 THERMALZONE 3
+   **   ~~~   ** 3305.0 hours were uncomfortable in zone: BUILDING STORY 2 THERMALZONE 4
+   **   ~~~   ** 2711.0 hours were uncomfortable in zone: BUILDING STORY 2 THERMALZONE 5
+   **   ~~~   ** 3335.0 hours were uncomfortable in zone: BUILDING STORY 2 THERMALZONE 6
+   **   ~~~   ** 2809.0 hours were uncomfortable in zone: BUILDING STORY 2 THERMALZONE 7
+   **   ~~~   ** 6056.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE
+   **   ~~~   ** 2559.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 1
+   **   ~~~   ** 2590.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 2
+   **   ~~~   ** 2975.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 3
+   **   ~~~   ** 3011.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 4
+   **   ~~~   ** 3019.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 5
+   **   ~~~   ** 3138.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 6
+   **   ~~~   ** 2844.0 hours were uncomfortable in zone: BUILDING STORY 3 THERMALZONE 7
+   **   ~~~   ** 2014.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE 1
+   **   ~~~   ** 1714.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE 2
+   **   ~~~   ** 2181.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE 3
+   **   ~~~   ** 2635.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE 4
+   **   ~~~   ** 2217.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE 5
+   **   ~~~   ** 2704.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE 6
+   **   ~~~   ** 2250.0 hours were uncomfortable in zone: BUILDING STORY 4 THERMALZONE 7
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-ELECTRICITY" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-DISTILLATE OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-RESIDUAL OIL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-NATURAL GAS" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= "U.S. AVG  COMMERCIAL-COAL" has no energy cost. 
+   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.
+   ************* Simulation Error Summary *************
+   ** Warning ** The following Report Variables were requested but not generated -- check.rdd file
+   **   ~~~   ** Either the IDF did not contain these elements, the variable name is misspelled,
+   **   ~~~   ** or the requested variable is an advanced output which requires Output : Diagnostics, DisplayAdvancedReportVariables;
+   ************* Key=*, VarName=FANGERPMV, Frequency=TimeStep
+   ************* Key=*, VarName=FANGERPPD, Frequency=TimeStep
+   ************* Key=*, VarName=TIME NOT COMFORTABLE SUMMER CLOTHES, Frequency=TimeStep
+   ************* Key=*, VarName=TIME NOT COMFORTABLE WINTER CLOTHES, Frequency=TimeStep
+   ************* Key=*, VarName=TIME NOT COMFORTABLE SUMMER OR WINTER CLOTHES, Frequency=TimeStep
+   ************* Key=*, VarName=DISTRICT COOLING CHILLED WATER RATE, Frequency=TimeStep
+   ************* Key=*, VarName=DISTRICT COOLING MASS FLOW RATE, Frequency=TimeStep
+   ************* Key=*, VarName=DISTRICT COOLING INLET TEMPERATURE, Frequency=TimeStep
+   ************* Key=*, VarName=DISTRICT COOLING OUTLET TEMPERATURE, Frequency=TimeStep
+   ************* Key=*, VarName=DISTRICT HEATING HOT WATER RATE, Frequency=TimeStep
+   ************* Key=*, VarName=DISTRICT HEATING MASS FLOW RATE, Frequency=TimeStep
+   ************* Key=*, VarName=DISTRICT HEATING INLET TEMPERATURE, Frequency=TimeStep
+   ************* Key=*, VarName=DISTRICT HEATING OUTLET TEMPERATURE, Frequency=TimeStep
+   ************* Key=*, VarName=EXTERIOREQUIPMENT:ELECTRICITY, Frequency=TimeStep
+   ************* Key=*, VarName=ICE THERMAL STORAGE END FRACTION, Frequency=TimeStep
+   ************* Key=*, VarName=COOLING COIL ICE THERMAL STORAGE END FRACTION, Frequency=TimeStep
+   ************* There are 14 unused schedules in input.
+   ************* There are 14 unused week schedules in input.
+   ************* There are 44 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Recurring Error Summary =====
+   ************* The following recurring error messages occurred.
+   *************
+   *************  ** Warning ** Controller:OutdoorAir="8 ZONE VAV OA CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
+   *************  **   ~~~   **   This error occurred 1393736 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=0.164297  Min=0.164297
+   *************
+   *************  ** Warning ** Controller:OutdoorAir="8 ZONE VAV 1 OA CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
+   *************  **   ~~~   **   This error occurred 1764119 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=0.203197  Min=0.203197
+   *************
+   *************  ** Warning ** Controller:OutdoorAir="8 ZONE VAV 2 OA CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
+   *************  **   ~~~   **   This error occurred 4615455 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=0.438391  Min=0.438391
+   *************
+   *************  ** Warning ** Controller:OutdoorAir="8 ZONE VAV 3 OA CONTROLLER": Min OA fraction > Mechanical ventilation OA fraction, continues...
+   *************  **   ~~~   **   This error occurred 1476086 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=0.679597  Min=0.679597
+   *************
+   *************  ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Water flow rate ratio is out of range error continues...
+   *************  **   ~~~   **   This error occurred 665 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.251982  Min=1.250001
+   *************
+   *************  ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Tower approach temperature is out of range error continues...
+   *************  **   ~~~   **   This error occurred 14910 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=40.551311  Min=11.111112
+   *************
+   *************  ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Inlet air wet-bulb temperature is out of range error continues...
+   *************  **   ~~~   **   This error occurred 3507 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=-1.019482  Min=-19.4402
+   *************
+   *************  ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Tower range temperature is out of range error continues...
+   *************  **   ~~~   **   This error occurred 21263 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=1.11106  Min=1.220949E-006
+   *************
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "8 ZONE VAV ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 2189751 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=5.6017  Min=1.300816
+   *************
+   *************  ** Warning ** CoolingTower:VariableSpeed "PROPELLER OR AXIAL VARIABLE SPEED FAN OPEN COOLING TOWER 40.2 GPM/HP" - Cooling tower air flow rate ratio calculation failed error continues.
+   *************  **   ~~~   **   This error occurred 1137 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "8 ZONE VAV 1 ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 2632029 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=4.649433  Min=1.300063
+   *************
+   *************  ** Warning ** HeatExchanger:AirToAir:SensibleAndLatent "8 ZONE VAV 2 ERV":  Average air volume flow rate is <50% or >130% warning continues. Air flow rate ratio statistics follow.
+   *************  **   ~~~   **   This error occurred 1233917 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************  **   ~~~   **   Max=2.162893  Min=1.300012
+   *************
+   *************  ** Warning ** SimHVAC: Exceeding Maximum iterations for all HVAC loops, during RUN PERIOD 1 continues
+   *************  **   ~~~   **   This error occurred 1078 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************
+   *************  ** Severe  ** FindRootSimpleController: Previous controller action error continues for controller = 8 ZONE VAV 2 CLG COIL CONTROLLER
+   *************  **   ~~~   **   This error occurred 1 total times;
+   *************  **   ~~~   **   during Warmup 0 times;
+   *************  **   ~~~   **   during Sizing 0 times.
+   *************
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Loads Initialization did not Converge
+   ************* ..1) very high thermal mass such as very thick concrete (solution: increase max number of warmup
+   ************* ..   days in the BUILDING object);
+   ************* ..2) moderate mass and inadequate space conditioning such that the building keeps getting warmer
+   ************* ..   and warmer on successive days (solution: add HVAC, check building thermal properties,
+   ************* ..   check if infiltration is included, make sure HVAC properly controlled);
+   ************* ..3) a soil layer modeled below the concrete slab - (solution remove this layer and read about
+   ************* ..   ground temperatures in the Auxiliary Programs document).
+   ************* ..4) unreasonable (too small) limits in the BUILDING object for temperature (.4 default) or
+   ************* ..   loads tolerances (.04 default)
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 18 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 106 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 15348086 Warning; 20 Severe Errors; Elapsed Time=00hr 03min 18.57sec

@@ -1,0 +1,43 @@
+--- !ruby/object:RDoc::Options
+encoding: UTF-8
+static_path: []
+rdoc_include:
+- lib
+charset: UTF-8
+exclude:
+- docs
+- node_modules
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- Rakefile
+- Jenkinsfile
+- README.md
+- !ruby/regexp /(copyright)/
+- !ruby/regexp /(\.css)/
+- !ruby/regexp /(\.erb)/
+- !ruby/regexp /(\.html)/
+- !ruby/regexp /(\.geojson)/
+- !ruby/regexp /(\.json)/
+- !ruby/regexp /(\.js)/
+- !ruby/regexp /(\.osw)/
+- !ruby/regexp /(\.osw.out)/
+- !ruby/regexp /(\.osm)/
+- !ruby/regexp /(\.xml)/
+- !ruby/regexp /(lib\/measures)/
+- urbanopt-geojson-gem.gemspec
+hyperlink_all: false
+line_numbers: false
+locale:
+locale_dir: locale
+locale_name:
+main_page: RDOC_MAIN.md
+#markup: markdown
+output_decoration: true
+op_dir: ./docs/.vuepress/public/rdoc
+show_hash: false
+tab_width: 8
+template_stylesheets: ["./docs/.vuepress/public/custom_rdoc_styles.css"]
+title:
+visibility: :protected
+webcvs:

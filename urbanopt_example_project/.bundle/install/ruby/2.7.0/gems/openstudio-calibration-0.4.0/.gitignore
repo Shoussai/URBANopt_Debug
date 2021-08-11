@@ -1,0 +1,30 @@
+/.bundle/
+/.yardoc
+/.ruby-version
+/Gemfile.lock
+/gems
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/test/
+/lib/measures/test_results
+/lib/measures/*/tests/output
+
+.rubocop*s3*
+
+# rspec failure tracking
+.rspec_status
+
+# Ignore IDE files
+/.idea
+
+# ignore mac files
+.DS_Store
+
+# ignore files made when run openstudio measure -r locally for testing
+lib/measures/.rubocop.yml
+lib/test/*
+test_results/
